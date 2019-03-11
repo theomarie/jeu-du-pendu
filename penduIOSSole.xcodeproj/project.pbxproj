@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24120411223153DF008071AC /* penduAnimation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 24120410223153DF008071AC /* penduAnimation.gif */; };
+		243B8362222DCC0100327E1A /* CustomStyleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243B8361222DCC0100327E1A /* CustomStyleButton.swift */; };
+		24B96CFA222E6B14004D8A88 /* LogoAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B96CF9222E6A25004D8A88 /* LogoAnimationView.swift */; };
+		24B96CFB222E6B17004D8A88 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B96CF8222E6A23004D8A88 /* UIView+Constraints.swift */; };
 		24FCEEED2226DF4F000D7A6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FCEEEC2226DF4F000D7A6E /* AppDelegate.swift */; };
 		24FCEEEF2226DF4F000D7A6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FCEEEE2226DF4F000D7A6E /* ViewController.swift */; };
 		24FCEEF22226DF4F000D7A6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FCEEF02226DF4F000D7A6E /* Main.storyboard */; };
 		24FCEEF42226DF50000D7A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24FCEEF32226DF50000D7A6E /* Assets.xcassets */; };
 		24FCEEF72226DF50000D7A6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FCEEF52226DF50000D7A6E /* LaunchScreen.storyboard */; };
+		24FCEF002226EB77000D7A6E /* ViewControllerScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FCEEFF2226EB77000D7A6E /* ViewControllerScene.swift */; };
+		FA0A99A36ADA087DC4DB6DCD /* libPods-penduIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1328710485AF95E5A074B19C /* libPods-penduIOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		24FCEEE92226DF4F000D7A6E /* TheCompteur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCompteur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1328710485AF95E5A074B19C /* libPods-penduIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-penduIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24120410223153DF008071AC /* penduAnimation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = penduAnimation.gif; path = penduIOS/Assets.xcassets/penduAnimation.gif; sourceTree = SOURCE_ROOT; };
+		243B8361222DCC0100327E1A /* CustomStyleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyleButton.swift; sourceTree = "<group>"; };
+		24B96CF8222E6A23004D8A88 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		24B96CF9222E6A25004D8A88 /* LogoAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoAnimationView.swift; sourceTree = "<group>"; };
+		24FCEEE92226DF4F000D7A6E /* penduIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = penduIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24FCEEEC2226DF4F000D7A6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24FCEEEE2226DF4F000D7A6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		24FCEEF12226DF4F000D7A6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24FCEEF32226DF50000D7A6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24FCEEF62226DF50000D7A6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24FCEEF82226DF50000D7A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24FCEEFF2226EB77000D7A6E /* ViewControllerScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerScene.swift; sourceTree = "<group>"; };
+		A1C6D390D6A8A92A16C37ED5 /* Pods-penduIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-penduIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-penduIOS/Pods-penduIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D0A69BEF04F7EBF52A0FC811 /* Pods-penduIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-penduIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-penduIOS/Pods-penduIOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,48 +43,90 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA0A99A36ADA087DC4DB6DCD /* libPods-penduIOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24B96CF7222E6A15004D8A88 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				24120410223153DF008071AC /* penduAnimation.gif */,
+				24B96CF9222E6A25004D8A88 /* LogoAnimationView.swift */,
+				24B96CF8222E6A23004D8A88 /* UIView+Constraints.swift */,
+				243B8361222DCC0100327E1A /* CustomStyleButton.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		24FCEEE02226DF4F000D7A6E = {
 			isa = PBXGroup;
 			children = (
-				24FCEEEB2226DF4F000D7A6E /* TheCompteur */,
+				24FCEEEB2226DF4F000D7A6E /* penduIOS */,
 				24FCEEEA2226DF4F000D7A6E /* Products */,
+				43F54E37931208A12EF13816 /* Pods */,
+				EF984184E2E774D01907446A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		24FCEEEA2226DF4F000D7A6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24FCEEE92226DF4F000D7A6E /* TheCompteur.app */,
+				24FCEEE92226DF4F000D7A6E /* penduIOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		24FCEEEB2226DF4F000D7A6E /* TheCompteur */ = {
+		24FCEEEB2226DF4F000D7A6E /* penduIOS */ = {
 			isa = PBXGroup;
 			children = (
+				24B96CF7222E6A15004D8A88 /* Animation */,
+				24FCEEFE2226EB3F000D7A6E /* View */,
 				24FCEEEC2226DF4F000D7A6E /* AppDelegate.swift */,
-				24FCEEEE2226DF4F000D7A6E /* ViewController.swift */,
 				24FCEEF02226DF4F000D7A6E /* Main.storyboard */,
-				24FCEEF32226DF50000D7A6E /* Assets.xcassets */,
 				24FCEEF52226DF50000D7A6E /* LaunchScreen.storyboard */,
+				24FCEEF32226DF50000D7A6E /* Assets.xcassets */,
 				24FCEEF82226DF50000D7A6E /* Info.plist */,
 			);
-			path = TheCompteur;
+			path = penduIOS;
+			sourceTree = "<group>";
+		};
+		24FCEEFE2226EB3F000D7A6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24FCEEEE2226DF4F000D7A6E /* ViewController.swift */,
+				24FCEEFF2226EB77000D7A6E /* ViewControllerScene.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		43F54E37931208A12EF13816 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1C6D390D6A8A92A16C37ED5 /* Pods-penduIOS.debug.xcconfig */,
+				D0A69BEF04F7EBF52A0FC811 /* Pods-penduIOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF984184E2E774D01907446A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1328710485AF95E5A074B19C /* libPods-penduIOS.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		24FCEEE82226DF4F000D7A6E /* TheCompteur */ = {
+		24FCEEE82226DF4F000D7A6E /* penduIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24FCEEFB2226DF50000D7A6E /* Build configuration list for PBXNativeTarget "TheCompteur" */;
+			buildConfigurationList = 24FCEEFB2226DF50000D7A6E /* Build configuration list for PBXNativeTarget "penduIOS" */;
 			buildPhases = (
+				76D0C91791451380F19D7472 /* [CP] Check Pods Manifest.lock */,
 				24FCEEE52226DF4F000D7A6E /* Sources */,
 				24FCEEE62226DF4F000D7A6E /* Frameworks */,
 				24FCEEE72226DF4F000D7A6E /* Resources */,
@@ -79,9 +135,9 @@
 			);
 			dependencies = (
 			);
-			name = TheCompteur;
+			name = penduIOS;
 			productName = TheCompteur;
-			productReference = 24FCEEE92226DF4F000D7A6E /* TheCompteur.app */;
+			productReference = 24FCEEE92226DF4F000D7A6E /* penduIOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +155,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 24FCEEE42226DF4F000D7A6E /* Build configuration list for PBXProject "TheCompteur" */;
+			buildConfigurationList = 24FCEEE42226DF4F000D7A6E /* Build configuration list for PBXProject "penduIOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +168,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				24FCEEE82226DF4F000D7A6E /* TheCompteur */,
+				24FCEEE82226DF4F000D7A6E /* penduIOS */,
 			);
 		};
 /* End PBXProject section */
@@ -124,18 +180,44 @@
 			files = (
 				24FCEEF72226DF50000D7A6E /* LaunchScreen.storyboard in Resources */,
 				24FCEEF42226DF50000D7A6E /* Assets.xcassets in Resources */,
+				24120411223153DF008071AC /* penduAnimation.gif in Resources */,
 				24FCEEF22226DF4F000D7A6E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		76D0C91791451380F19D7472 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-penduIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24FCEEE52226DF4F000D7A6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24FCEF002226EB77000D7A6E /* ViewControllerScene.swift in Sources */,
 				24FCEEEF2226DF4F000D7A6E /* ViewController.swift in Sources */,
+				24B96CFA222E6B14004D8A88 /* LogoAnimationView.swift in Sources */,
+				24B96CFB222E6B17004D8A88 /* UIView+Constraints.swift in Sources */,
+				243B8362222DCC0100327E1A /* CustomStyleButton.swift in Sources */,
 				24FCEEED2226DF4F000D7A6E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,17 +362,22 @@
 		};
 		24FCEEFC2226DF50000D7A6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C6D390D6A8A92A16C37ED5 /* Pods-penduIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NM5QV7PF3;
-				INFOPLIST_FILE = TheCompteur/Info.plist;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/penduIOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = etudiant.TheCompteur;
+				PRODUCT_BUNDLE_IDENTIFIER = etudiant.penduIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,17 +385,22 @@
 		};
 		24FCEEFD2226DF50000D7A6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0A69BEF04F7EBF52A0FC811 /* Pods-penduIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NM5QV7PF3;
-				INFOPLIST_FILE = TheCompteur/Info.plist;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/penduIOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = etudiant.TheCompteur;
+				PRODUCT_BUNDLE_IDENTIFIER = etudiant.penduIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,7 +409,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		24FCEEE42226DF4F000D7A6E /* Build configuration list for PBXProject "TheCompteur" */ = {
+		24FCEEE42226DF4F000D7A6E /* Build configuration list for PBXProject "penduIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24FCEEF92226DF50000D7A6E /* Debug */,
@@ -326,7 +418,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24FCEEFB2226DF50000D7A6E /* Build configuration list for PBXNativeTarget "TheCompteur" */ = {
+		24FCEEFB2226DF50000D7A6E /* Build configuration list for PBXNativeTarget "penduIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24FCEEFC2226DF50000D7A6E /* Debug */,
