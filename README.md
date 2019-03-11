@@ -16,4 +16,4 @@ Jeu du pendu Avec 2 types de mode :
     Votre Ami choisi le mot que vous devez trouver pour remporter la partie. 
     
     
-![alt tag](https://user-images.githubusercontent.com/34074097/54145264-f23fdf00-442d-11e9-9f8f-6ec25d36742a.png)
+![alt tag](https://user-images.githubusercontent.com/34074097/54145260-f1a74880-442d-11e9-986d-0131f1010ad5.png)
