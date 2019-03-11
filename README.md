@@ -16,4 +16,4 @@ Jeu du pendu Avec 2 types de mode :
     Votre Ami choisi le mot que vous devez trouver pour remporter la partie. 
     
     
-![althttps://ibb.co/JsTPWHw tag]
+![alt tag](https://ibb.co/JsTPWHw)
