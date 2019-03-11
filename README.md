@@ -16,4 +16,4 @@ Jeu du pendu Avec 2 types de mode :
     Votre Ami choisi le mot que vous devez trouver pour remporter la partie. 
     
     
-![alt tag](https://ibb.co/JsTPWHw)
+![alt tag](https://github.com/theomarie/jeu-du-pendu/issues/1#issue-419599576)
