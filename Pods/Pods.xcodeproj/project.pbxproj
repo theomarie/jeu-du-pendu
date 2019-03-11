@@ -1,0 +1,934 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02111C3ABA0674B50C18E607AB7FAFEC /* Pods-penduIOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E5BC936D5C5D5CB11E513B0914C529 /* Pods-penduIOS-dummy.m */; };
+		273719360D87BEFFFFA34BF89F7C17D6 /* SwiftyGif-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E746ECBF6103F5B6F7EC0C794C3C2A7 /* SwiftyGif-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46330D60F8C5F84AE3089FE87477A0FE /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E09AA9C89D04423D12FBDE553B75A0 /* SwiftyGifManager.swift */; };
+		4A85EE80908D10C3139B3780C14B6D7E /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE532CC8BE36C829084399B3709B1E /* UIImage+SwiftyGif.swift */; };
+		55D65590827EF04826D4A9213CD46924 /* AnimatedTextFieldCounter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7033232E89CA8F8D1CEEDE83923E5 /* AnimatedTextFieldCounter-dummy.m */; };
+		5CCC7E35485A4E0C3E25FA75B2BF5906 /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD3C7E99C71AA4ADF570E7874D4119A /* SCLAlertView-dummy.m */; };
+		6724C83B5CD728AB9114BBC7208B94B4 /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E688EFBC20241307F0C07F9EAE4621 /* UIImageView+SwiftyGif.swift */; };
+		77431DA8173FE43644712E789378BCF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD46FBC041420035C341CC6342582587 /* UIKit.framework */; };
+		8E042A4934DD9C8EB9273DC98459D6BE /* AnimatedTextFieldCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CDC08C1FA1C13889EE829539EDC62C /* AnimatedTextFieldCounter.swift */; };
+		956AD31008FF56D26F021D695B82073A /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76EADC0F5D83A9A89FB442D3E32E4F4F /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B230C14890B688FC560807BFC2D3F543 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940DC318DAC253FB57128C2D7E7D62B8 /* SCLExtensions.swift */; };
+		B42B23EC8051D4C11258E2B319EE22C8 /* Pods-penduIOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F186B778BEA601A343A4CC0DB9192BEA /* Pods-penduIOS-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C61128287593FBD1C431773080B6135D /* SwiftyGif-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FADBC682FEB9A6A4DB9302786CC86B15 /* SwiftyGif-dummy.m */; };
+		CFD4DF57093738B40FF09C4B0EE35E9C /* SwiftyGif.h in Headers */ = {isa = PBXBuildFile; fileRef = FECBE7C6BD75CC788FC7D5F9358B145B /* SwiftyGif.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7C832B405EDE3C7CB90F37CCCAFA52E /* AnimatedTextFieldCounter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D81D3E71E741BBE7673B84AFDB4C4E /* AnimatedTextFieldCounter-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB9A22581256674CEE966CF81A2F77AF /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D76BA87EBD7F49E617DA2307EC3C2 /* SCLAlertView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30E92FF6D9A94512D5B291A19C1C0533 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B38087C4B7D14805DD3ED5F87986687;
+			remoteInfo = AnimatedTextFieldCounter;
+		};
+		ADA10A4662F88B6FDE9A32A5E87ECCB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51B395EDD8931ACF97DCB7D0CB938551;
+			remoteInfo = SCLAlertView;
+		};
+		B4D684547A70203BFD519BD1D519BBD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41DB06E2BF2CBF1BB4CD4B8A97D24648;
+			remoteInfo = SwiftyGif;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021C15C0CE13EDDEAE3B4C62C8135B3F /* libAnimatedTextFieldCounter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAnimatedTextFieldCounter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF638B8E707CAA21214BB071569E9A2 /* libSwiftyGif.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftyGif.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		10FFC59CA319DF7492B67EC7CA957935 /* Pods-penduIOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-penduIOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		17E5BC936D5C5D5CB11E513B0914C529 /* Pods-penduIOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-penduIOS-dummy.m"; sourceTree = "<group>"; };
+		18D4A385599AF1B815D1D246CBC21428 /* AnimatedTextFieldCounter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedTextFieldCounter-prefix.pch"; sourceTree = "<group>"; };
+		1CAF55A101E64F7DE7004D4FCA29B58A /* SCLAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.xcconfig; sourceTree = "<group>"; };
+		28586777275AB52B440F2EB86A755489 /* AnimatedTextFieldCounter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatedTextFieldCounter.xcconfig; sourceTree = "<group>"; };
+		36CDC08C1FA1C13889EE829539EDC62C /* AnimatedTextFieldCounter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTextFieldCounter.swift; path = AnimatedTextFieldCounter/Classes/AnimatedTextFieldCounter.swift; sourceTree = "<group>"; };
+		3E746ECBF6103F5B6F7EC0C794C3C2A7 /* SwiftyGif-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftyGif-umbrella.h"; path = "../../Headers/Public/SwiftyGif/SwiftyGif-umbrella.h"; sourceTree = "<group>"; };
+		427D46752855B4C28AB3D52B2426EFD1 /* Pods-penduIOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-penduIOS-frameworks.sh"; sourceTree = "<group>"; };
+		515EFCEBFCFED35F9AAC9A2689CCF931 /* SwiftyGif.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = SwiftyGif.modulemap; path = ../../Headers/Public/SwiftyGif/SwiftyGif.modulemap; sourceTree = "<group>"; };
+		5CE7033232E89CA8F8D1CEEDE83923E5 /* AnimatedTextFieldCounter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimatedTextFieldCounter-dummy.m"; sourceTree = "<group>"; };
+		76EADC0F5D83A9A89FB442D3E32E4F4F /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SCLAlertView-umbrella.h"; path = "../../Headers/Public/SCLAlertView/SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
+		7F6D76BA87EBD7F49E617DA2307EC3C2 /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
+		81465451A53D259B6847FFCCA7EA0615 /* libPods-penduIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-penduIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DFE532CC8BE36C829084399B3709B1E /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+SwiftyGif.swift"; path = "SwiftyGif/UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
+		8E26FABF9931C178995ED30407D75164 /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = SCLAlertView.modulemap; path = ../../Headers/Public/SCLAlertView/SCLAlertView.modulemap; sourceTree = "<group>"; };
+		92DE954938151AC63475ABC101CBD16C /* SwiftyGif-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		940DC318DAC253FB57128C2D7E7D62B8 /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
+		B5F1030B0D61895E34F8FB2B634771AD /* Pods-penduIOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-penduIOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B98F93D2BC29F8E9A15D005CBEE2F8B8 /* AnimatedTextFieldCounter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = AnimatedTextFieldCounter.modulemap; path = ../../Headers/Public/AnimatedTextFieldCounter/AnimatedTextFieldCounter.modulemap; sourceTree = "<group>"; };
+		C1E09AA9C89D04423D12FBDE553B75A0 /* SwiftyGifManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyGifManager.swift; path = SwiftyGif/SwiftyGifManager.swift; sourceTree = "<group>"; };
+		C2D81D3E71E741BBE7673B84AFDB4C4E /* AnimatedTextFieldCounter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AnimatedTextFieldCounter-umbrella.h"; path = "../../Headers/Public/AnimatedTextFieldCounter/AnimatedTextFieldCounter-umbrella.h"; sourceTree = "<group>"; };
+		D91C198B0481DE77F67406CB1EAE775A /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
+		DCD3C7E99C71AA4ADF570E7874D4119A /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
+		DD46FBC041420035C341CC6342582587 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E0C3938B70527B8852FF1AE9863A754D /* Pods-penduIOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-penduIOS.modulemap"; sourceTree = "<group>"; };
+		E1E688EFBC20241307F0C07F9EAE4621 /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+SwiftyGif.swift"; path = "SwiftyGif/UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
+		E7A022531AF7D3D95CECD5B8535D2B86 /* Pods-penduIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-penduIOS.release.xcconfig"; sourceTree = "<group>"; };
+		F186B778BEA601A343A4CC0DB9192BEA /* Pods-penduIOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-penduIOS-umbrella.h"; sourceTree = "<group>"; };
+		F3C6AEA4CA40B2147E5AF1DCBEB04A01 /* SwiftyGif.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.xcconfig; sourceTree = "<group>"; };
+		F96DAD598CB2D0965FBF804AE8307A60 /* Pods-penduIOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-penduIOS-resources.sh"; sourceTree = "<group>"; };
+		FADBC682FEB9A6A4DB9302786CC86B15 /* SwiftyGif-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyGif-dummy.m"; sourceTree = "<group>"; };
+		FBCEBEB39D6B7078FF745FA96A040388 /* Pods-penduIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-penduIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FD1FAE6E4371DD9B6292E8DFFB0C46EA /* libSCLAlertView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSCLAlertView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FECBE7C6BD75CC788FC7D5F9358B145B /* SwiftyGif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyGif.h; path = SwiftyGif/SwiftyGif.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11880B7E1872D5E14921772F494921AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658EACA663B2A1F4943E95BC8685D38E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F2B2294438097A4A8CE136AA01D535F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F396083ECDA62AC5FAA16C9321C97D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77431DA8173FE43644712E789378BCF9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB3B3B83AB7C567EBB23FAEF4EAD89C /* AnimatedTextFieldCounter */ = {
+			isa = PBXGroup;
+			children = (
+				36CDC08C1FA1C13889EE829539EDC62C /* AnimatedTextFieldCounter.swift */,
+				E06741EAFB257E12712D636A14501BAE /* Support Files */,
+			);
+			path = AnimatedTextFieldCounter;
+			sourceTree = "<group>";
+		};
+		382BDE716F6E2D071066D16349191C1F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E26FABF9931C178995ED30407D75164 /* SCLAlertView.modulemap */,
+				1CAF55A101E64F7DE7004D4FCA29B58A /* SCLAlertView.xcconfig */,
+				DCD3C7E99C71AA4ADF570E7874D4119A /* SCLAlertView-dummy.m */,
+				D91C198B0481DE77F67406CB1EAE775A /* SCLAlertView-prefix.pch */,
+				76EADC0F5D83A9A89FB442D3E32E4F4F /* SCLAlertView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCLAlertView";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				914A29948A7A1BC4BE99D014E1EEDF7E /* Pods */,
+				8163C3F93D5E24DAE2F3033FFEF4456A /* Products */,
+				DACDE612A7E6F61B0B0AE805BA68F827 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8163C3F93D5E24DAE2F3033FFEF4456A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				021C15C0CE13EDDEAE3B4C62C8135B3F /* libAnimatedTextFieldCounter.a */,
+				81465451A53D259B6847FFCCA7EA0615 /* libPods-penduIOS.a */,
+				FD1FAE6E4371DD9B6292E8DFFB0C46EA /* libSCLAlertView.a */,
+				0DF638B8E707CAA21214BB071569E9A2 /* libSwiftyGif.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		866C63654E6680E6FCD156D536A801CF /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				7F6D76BA87EBD7F49E617DA2307EC3C2 /* SCLAlertView.swift */,
+				940DC318DAC253FB57128C2D7E7D62B8 /* SCLExtensions.swift */,
+				382BDE716F6E2D071066D16349191C1F /* Support Files */,
+			);
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
+		914A29948A7A1BC4BE99D014E1EEDF7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AB3B3B83AB7C567EBB23FAEF4EAD89C /* AnimatedTextFieldCounter */,
+				866C63654E6680E6FCD156D536A801CF /* SCLAlertView */,
+				B6EEDC75ED0F8307CC569E3C3C6E9EF6 /* SwiftyGif */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		93E218049D8F8728401CA6B70973ECAF /* Pods-penduIOS */ = {
+			isa = PBXGroup;
+			children = (
+				E0C3938B70527B8852FF1AE9863A754D /* Pods-penduIOS.modulemap */,
+				B5F1030B0D61895E34F8FB2B634771AD /* Pods-penduIOS-acknowledgements.markdown */,
+				10FFC59CA319DF7492B67EC7CA957935 /* Pods-penduIOS-acknowledgements.plist */,
+				17E5BC936D5C5D5CB11E513B0914C529 /* Pods-penduIOS-dummy.m */,
+				427D46752855B4C28AB3D52B2426EFD1 /* Pods-penduIOS-frameworks.sh */,
+				F96DAD598CB2D0965FBF804AE8307A60 /* Pods-penduIOS-resources.sh */,
+				F186B778BEA601A343A4CC0DB9192BEA /* Pods-penduIOS-umbrella.h */,
+				FBCEBEB39D6B7078FF745FA96A040388 /* Pods-penduIOS.debug.xcconfig */,
+				E7A022531AF7D3D95CECD5B8535D2B86 /* Pods-penduIOS.release.xcconfig */,
+			);
+			name = "Pods-penduIOS";
+			path = "Target Support Files/Pods-penduIOS";
+			sourceTree = "<group>";
+		};
+		B6EEDC75ED0F8307CC569E3C3C6E9EF6 /* SwiftyGif */ = {
+			isa = PBXGroup;
+			children = (
+				FECBE7C6BD75CC788FC7D5F9358B145B /* SwiftyGif.h */,
+				C1E09AA9C89D04423D12FBDE553B75A0 /* SwiftyGifManager.swift */,
+				8DFE532CC8BE36C829084399B3709B1E /* UIImage+SwiftyGif.swift */,
+				E1E688EFBC20241307F0C07F9EAE4621 /* UIImageView+SwiftyGif.swift */,
+				E8B8525BA17009CE7526493FA068B252 /* Support Files */,
+			);
+			path = SwiftyGif;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF5B08143E740C3777FEB0D3A952141C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DACDE612A7E6F61B0B0AE805BA68F827 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93E218049D8F8728401CA6B70973ECAF /* Pods-penduIOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E06741EAFB257E12712D636A14501BAE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B98F93D2BC29F8E9A15D005CBEE2F8B8 /* AnimatedTextFieldCounter.modulemap */,
+				28586777275AB52B440F2EB86A755489 /* AnimatedTextFieldCounter.xcconfig */,
+				5CE7033232E89CA8F8D1CEEDE83923E5 /* AnimatedTextFieldCounter-dummy.m */,
+				18D4A385599AF1B815D1D246CBC21428 /* AnimatedTextFieldCounter-prefix.pch */,
+				C2D81D3E71E741BBE7673B84AFDB4C4E /* AnimatedTextFieldCounter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AnimatedTextFieldCounter";
+			sourceTree = "<group>";
+		};
+		E8B8525BA17009CE7526493FA068B252 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				515EFCEBFCFED35F9AAC9A2689CCF931 /* SwiftyGif.modulemap */,
+				F3C6AEA4CA40B2147E5AF1DCBEB04A01 /* SwiftyGif.xcconfig */,
+				FADBC682FEB9A6A4DB9302786CC86B15 /* SwiftyGif-dummy.m */,
+				92DE954938151AC63475ABC101CBD16C /* SwiftyGif-prefix.pch */,
+				3E746ECBF6103F5B6F7EC0C794C3C2A7 /* SwiftyGif-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyGif";
+			sourceTree = "<group>";
+		};
+		FF5B08143E740C3777FEB0D3A952141C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DD46FBC041420035C341CC6342582587 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		347067E50B4A3221CC118B7DEF7C6F77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956AD31008FF56D26F021D695B82073A /* SCLAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3E572B5D54533A2AF6813D0ECE1552 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273719360D87BEFFFFA34BF89F7C17D6 /* SwiftyGif-umbrella.h in Headers */,
+				CFD4DF57093738B40FF09C4B0EE35E9C /* SwiftyGif.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61716AA8B94008031F8B74D6F6C59149 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42B23EC8051D4C11258E2B319EE22C8 /* Pods-penduIOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA51975A1444A9AA85AED00784875067 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C832B405EDE3C7CB90F37CCCAFA52E /* AnimatedTextFieldCounter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B38087C4B7D14805DD3ED5F87986687 /* AnimatedTextFieldCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC1FB5A2F5C0462D9C83C0046C8899B /* Build configuration list for PBXNativeTarget "AnimatedTextFieldCounter" */;
+			buildPhases = (
+				E5A8F617748C24FA3D356AA0CBEABEF8 /* Sources */,
+				94F396083ECDA62AC5FAA16C9321C97D /* Frameworks */,
+				AA51975A1444A9AA85AED00784875067 /* Headers */,
+				4A552AFCF3590EBEEA77CABC063DC8EB /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedTextFieldCounter;
+			productName = AnimatedTextFieldCounter;
+			productReference = 021C15C0CE13EDDEAE3B4C62C8135B3F /* libAnimatedTextFieldCounter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		41DB06E2BF2CBF1BB4CD4B8A97D24648 /* SwiftyGif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 749AF89CEC18BDB2BCF1E7AD06D19FE4 /* Build configuration list for PBXNativeTarget "SwiftyGif" */;
+			buildPhases = (
+				8F9C9D9B8C812A636A0372C3A732DCCB /* Sources */,
+				8F2B2294438097A4A8CE136AA01D535F /* Frameworks */,
+				4C3E572B5D54533A2AF6813D0ECE1552 /* Headers */,
+				0147F1A5D0B2F706D759E8A716266B4B /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyGif;
+			productName = SwiftyGif;
+			productReference = 0DF638B8E707CAA21214BB071569E9A2 /* libSwiftyGif.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		51B395EDD8931ACF97DCB7D0CB938551 /* SCLAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB71F67F7E509A3D5D4522C9049A87BC /* Build configuration list for PBXNativeTarget "SCLAlertView" */;
+			buildPhases = (
+				A409F6FEF0C802AAC300413467D3169B /* Sources */,
+				11880B7E1872D5E14921772F494921AE /* Frameworks */,
+				347067E50B4A3221CC118B7DEF7C6F77 /* Headers */,
+				CC7B1C79B61A3EC120E7778B0FE16255 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCLAlertView;
+			productName = SCLAlertView;
+			productReference = FD1FAE6E4371DD9B6292E8DFFB0C46EA /* libSCLAlertView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8D8CD0B4E69FE5C8E74B3B7575D52F96 /* Pods-penduIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DB2AFF45E6FAFCB554B6A19AB33D8AE /* Build configuration list for PBXNativeTarget "Pods-penduIOS" */;
+			buildPhases = (
+				1C2BF7858A07528B0A820BB7A2670258 /* Sources */,
+				658EACA663B2A1F4943E95BC8685D38E /* Frameworks */,
+				61716AA8B94008031F8B74D6F6C59149 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70567D9DEA60AEB8A1185B3C447DDD5A /* PBXTargetDependency */,
+				19BEF90B380EB33BAE54CD56BE0C42F9 /* PBXTargetDependency */,
+				987EA34B58A12E0807CAB23070D7BA23 /* PBXTargetDependency */,
+			);
+			name = "Pods-penduIOS";
+			productName = "Pods-penduIOS";
+			productReference = 81465451A53D259B6847FFCCA7EA0615 /* libPods-penduIOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					1B38087C4B7D14805DD3ED5F87986687 = {
+						LastSwiftMigration = 1010;
+					};
+					51B395EDD8931ACF97DCB7D0CB938551 = {
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8163C3F93D5E24DAE2F3033FFEF4456A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B38087C4B7D14805DD3ED5F87986687 /* AnimatedTextFieldCounter */,
+				8D8CD0B4E69FE5C8E74B3B7575D52F96 /* Pods-penduIOS */,
+				51B395EDD8931ACF97DCB7D0CB938551 /* SCLAlertView */,
+				41DB06E2BF2CBF1BB4CD4B8A97D24648 /* SwiftyGif */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0147F1A5D0B2F706D759E8A716266B4B /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SwiftyGif/SwiftyGif.modulemap",
+				"${PODS_ROOT}/Headers/Public/SwiftyGif/SwiftyGif-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SwiftyGif-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftyGif/SwiftyGif.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftyGif/SwiftyGif-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		4A552AFCF3590EBEEA77CABC063DC8EB /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/AnimatedTextFieldCounter/AnimatedTextFieldCounter.modulemap",
+				"${PODS_ROOT}/Headers/Public/AnimatedTextFieldCounter/AnimatedTextFieldCounter-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/AnimatedTextFieldCounter-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/AnimatedTextFieldCounter/AnimatedTextFieldCounter.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/AnimatedTextFieldCounter/AnimatedTextFieldCounter-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		CC7B1C79B61A3EC120E7778B0FE16255 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SCLAlertView/SCLAlertView.modulemap",
+				"${PODS_ROOT}/Headers/Public/SCLAlertView/SCLAlertView-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SCLAlertView/SCLAlertView.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SCLAlertView/SCLAlertView-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C2BF7858A07528B0A820BB7A2670258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02111C3ABA0674B50C18E607AB7FAFEC /* Pods-penduIOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9C9D9B8C812A636A0372C3A732DCCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61128287593FBD1C431773080B6135D /* SwiftyGif-dummy.m in Sources */,
+				46330D60F8C5F84AE3089FE87477A0FE /* SwiftyGifManager.swift in Sources */,
+				4A85EE80908D10C3139B3780C14B6D7E /* UIImage+SwiftyGif.swift in Sources */,
+				6724C83B5CD728AB9114BBC7208B94B4 /* UIImageView+SwiftyGif.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A409F6FEF0C802AAC300413467D3169B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCC7E35485A4E0C3E25FA75B2BF5906 /* SCLAlertView-dummy.m in Sources */,
+				FB9A22581256674CEE966CF81A2F77AF /* SCLAlertView.swift in Sources */,
+				B230C14890B688FC560807BFC2D3F543 /* SCLExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A8F617748C24FA3D356AA0CBEABEF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D65590827EF04826D4A9213CD46924 /* AnimatedTextFieldCounter-dummy.m in Sources */,
+				8E042A4934DD9C8EB9273DC98459D6BE /* AnimatedTextFieldCounter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19BEF90B380EB33BAE54CD56BE0C42F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCLAlertView;
+			target = 51B395EDD8931ACF97DCB7D0CB938551 /* SCLAlertView */;
+			targetProxy = ADA10A4662F88B6FDE9A32A5E87ECCB1 /* PBXContainerItemProxy */;
+		};
+		70567D9DEA60AEB8A1185B3C447DDD5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AnimatedTextFieldCounter;
+			target = 1B38087C4B7D14805DD3ED5F87986687 /* AnimatedTextFieldCounter */;
+			targetProxy = 30E92FF6D9A94512D5B291A19C1C0533 /* PBXContainerItemProxy */;
+		};
+		987EA34B58A12E0807CAB23070D7BA23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyGif;
+			target = 41DB06E2BF2CBF1BB4CD4B8A97D24648 /* SwiftyGif */;
+			targetProxy = B4D684547A70203BFD519BD1D519BBD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		17B0AE91BF470EFF391B1E28E4F501DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBCEBEB39D6B7078FF745FA96A040388 /* Pods-penduIOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-penduIOS/Pods-penduIOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47ECBCCF19B9E2B718C3F97037E76943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28586777275AB52B440F2EB86A755489 /* AnimatedTextFieldCounter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AnimatedTextFieldCounter/AnimatedTextFieldCounter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/AnimatedTextFieldCounter/AnimatedTextFieldCounter.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AnimatedTextFieldCounter;
+				PRODUCT_NAME = AnimatedTextFieldCounter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D2C2B0F57BA7CA636C2612633E3571B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C6AEA4CA40B2147E5AF1DCBEB04A01 /* SwiftyGif.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SwiftyGif/SwiftyGif.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftyGif;
+				PRODUCT_NAME = SwiftyGif;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		852A9AFB87CE0A283C1BA60799A5D3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28586777275AB52B440F2EB86A755489 /* AnimatedTextFieldCounter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AnimatedTextFieldCounter/AnimatedTextFieldCounter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/AnimatedTextFieldCounter/AnimatedTextFieldCounter.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AnimatedTextFieldCounter;
+				PRODUCT_NAME = AnimatedTextFieldCounter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		95A7253849D49BCDCC919C1AFFC530BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A022531AF7D3D95CECD5B8535D2B86 /* Pods-penduIOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-penduIOS/Pods-penduIOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95ADC49497DDE2D70FD4F1C82BFECD9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C6AEA4CA40B2147E5AF1DCBEB04A01 /* SwiftyGif.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SwiftyGif/SwiftyGif.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftyGif;
+				PRODUCT_NAME = SwiftyGif;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4E15AAD1D3F5D5E3A337C9D92F34707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CAF55A101E64F7DE7004D4FCA29B58A /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SCLAlertView/SCLAlertView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SCLAlertView;
+				PRODUCT_NAME = SCLAlertView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB8980251142344FA5395C09D54DD04A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CAF55A101E64F7DE7004D4FCA29B58A /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SCLAlertView/SCLAlertView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SCLAlertView;
+				PRODUCT_NAME = SCLAlertView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
+				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		749AF89CEC18BDB2BCF1E7AD06D19FE4 /* Build configuration list for PBXNativeTarget "SwiftyGif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95ADC49497DDE2D70FD4F1C82BFECD9B /* Debug */,
+				6D2C2B0F57BA7CA636C2612633E3571B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC1FB5A2F5C0462D9C83C0046C8899B /* Build configuration list for PBXNativeTarget "AnimatedTextFieldCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852A9AFB87CE0A283C1BA60799A5D3C4 /* Debug */,
+				47ECBCCF19B9E2B718C3F97037E76943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DB2AFF45E6FAFCB554B6A19AB33D8AE /* Build configuration list for PBXNativeTarget "Pods-penduIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B0AE91BF470EFF391B1E28E4F501DF /* Debug */,
+				95A7253849D49BCDCC919C1AFFC530BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB71F67F7E509A3D5D4522C9049A87BC /* Build configuration list for PBXNativeTarget "SCLAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8980251142344FA5395C09D54DD04A /* Debug */,
+				D4E15AAD1D3F5D5E3A337C9D92F34707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

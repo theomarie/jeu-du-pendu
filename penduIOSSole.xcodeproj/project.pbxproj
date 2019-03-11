@@ -26,7 +26,7 @@
 		243B8361222DCC0100327E1A /* CustomStyleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyleButton.swift; sourceTree = "<group>"; };
 		24B96CF8222E6A23004D8A88 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
 		24B96CF9222E6A25004D8A88 /* LogoAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoAnimationView.swift; sourceTree = "<group>"; };
-		24FCEEE92226DF4F000D7A6E /* penduIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = penduIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24FCEEE92226DF4F000D7A6E /* penduIOSSole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = penduIOSSole.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24FCEEEC2226DF4F000D7A6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24FCEEEE2226DF4F000D7A6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		24FCEEF12226DF4F000D7A6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		24FCEEEA2226DF4F000D7A6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24FCEEE92226DF4F000D7A6E /* penduIOS.app */,
+				24FCEEE92226DF4F000D7A6E /* penduIOSSole.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		24FCEEE82226DF4F000D7A6E /* penduIOS */ = {
+		24FCEEE82226DF4F000D7A6E /* penduIOSSole */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24FCEEFB2226DF50000D7A6E /* Build configuration list for PBXNativeTarget "penduIOS" */;
+			buildConfigurationList = 24FCEEFB2226DF50000D7A6E /* Build configuration list for PBXNativeTarget "penduIOSSole" */;
 			buildPhases = (
 				76D0C91791451380F19D7472 /* [CP] Check Pods Manifest.lock */,
 				24FCEEE52226DF4F000D7A6E /* Sources */,
@@ -135,9 +135,9 @@
 			);
 			dependencies = (
 			);
-			name = penduIOS;
+			name = penduIOSSole;
 			productName = TheCompteur;
-			productReference = 24FCEEE92226DF4F000D7A6E /* penduIOS.app */;
+			productReference = 24FCEEE92226DF4F000D7A6E /* penduIOSSole.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -155,7 +155,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 24FCEEE42226DF4F000D7A6E /* Build configuration list for PBXProject "penduIOS" */;
+			buildConfigurationList = 24FCEEE42226DF4F000D7A6E /* Build configuration list for PBXProject "penduIOSSole" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -168,7 +168,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				24FCEEE82226DF4F000D7A6E /* penduIOS */,
+				24FCEEE82226DF4F000D7A6E /* penduIOSSole */,
 			);
 		};
 /* End PBXProject section */
@@ -409,7 +409,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		24FCEEE42226DF4F000D7A6E /* Build configuration list for PBXProject "penduIOS" */ = {
+		24FCEEE42226DF4F000D7A6E /* Build configuration list for PBXProject "penduIOSSole" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24FCEEF92226DF50000D7A6E /* Debug */,
@@ -418,7 +418,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24FCEEFB2226DF50000D7A6E /* Build configuration list for PBXNativeTarget "penduIOS" */ = {
+		24FCEEFB2226DF50000D7A6E /* Build configuration list for PBXNativeTarget "penduIOSSole" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24FCEEFC2226DF50000D7A6E /* Debug */,

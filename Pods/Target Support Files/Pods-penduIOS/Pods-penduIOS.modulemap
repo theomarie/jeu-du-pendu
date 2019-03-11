@@ -1,0 +1,6 @@
+module Pods_penduIOS {
+  umbrella header "Pods-penduIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

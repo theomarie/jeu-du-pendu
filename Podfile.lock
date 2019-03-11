@@ -1,0 +1,24 @@
+PODS:
+  - AnimatedTextFieldCounter (0.1.0)
+  - SCLAlertView (0.8)
+  - SwiftyGif (4.2.0)
+
+DEPENDENCIES:
+  - AnimatedTextFieldCounter (~> 0.1)
+  - SCLAlertView (~> 0.8)
+  - SwiftyGif
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AnimatedTextFieldCounter
+    - SCLAlertView
+    - SwiftyGif
+
+SPEC CHECKSUMS:
+  AnimatedTextFieldCounter: 017a75e9fd1965d69d4fc9a55919da5a52f9bc0d
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SwiftyGif: a149bf84df23370592f3f075561ae02c8632a314
+
+PODFILE CHECKSUM: 6229bf30a07d7d79291e4c181ff6718e6bb1651d
+
+COCOAPODS: 1.5.2
