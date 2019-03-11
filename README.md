@@ -1,4 +1,4 @@
-# jeu-du-pendu
+# jeu-du-pendu Swift 4.2 Xcode 9.3
 
 
 Jeu du pendu Avec 2 types de mode :
